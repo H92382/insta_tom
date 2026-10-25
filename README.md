@@ -1,38 +1,18 @@
-Project Name
+# insta_tom
 
-A simple and easy-to-use project designed to be easy to understand, use, and maintain.
+A simple, easy-to-use, and easy-to-maintain project.
 
-✨ Features
-Simple and user-friendly.
-Easy to set up and use.
-Easy to maintain and modify.
-Lightweight and straightforward.
-📦 Installation
+## Features
 
-Install Python using the following command:
-Run the following command to start the project:
-bash
-cd insta_tom
+- Easy to use
+- Easy to maintain
+- Simple setup
+
+## Installation
+
+```bash
+pkg install git -y 
 pkg install python -y
+git clone https://github.com/H92382/insta_tom/
+cd insta_tom
 python main.py 
-🚀 Usage
-
-
-
-bash
-python main.py
-
-🛠️ Requirements
-Python
-Termux or a compatible terminal.
-📌 Note
-
-Make sure Python is installed correctly before running the project.
-
-🤝 Contributing
-
-Feel free to improve the code, fix bugs, or add new features.
-
-📄 License
-
-This project is available for learning and personal use.
