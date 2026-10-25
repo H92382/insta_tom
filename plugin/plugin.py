@@ -16,9 +16,7 @@ def run_on_change(code, process):
         process.terminate()
         process.wait()
     runner = (
-        """import sys
-        code = sys.stdin.read()
-        exec(compile(code, 'program.py', 'exec'))""")
+        "import sys\ncode = sys.stdin.read()\nexec(compile(code, 'program.py', 'exec'))")
 
     process = subprocess.Popen(
         [sys.executable, "-u", "-c", runner],
