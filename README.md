@@ -1,9 +1,9 @@
 # insta_tom
 
 A simple, easy-to-use, and easy-to-maintain project.
+Instagrapi is an unofficial Python library that allows developers to interact with Instagram programmatically. It provides features for accessing account information, uploading photos and videos, managing media, viewing profiles, and performing other supported Instagram operations.
 
 ## Features
-
 - Easy to use
 - Easy to maintain
 - Simple setup
